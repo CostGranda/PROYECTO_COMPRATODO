@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32A0C6F4-E463-035F-606D-544B36BB8AA2" name="PEDIDO">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 01:54:38 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_pedido" id="1B00BA2E-FF8C-92EE-1781-4380973B141A">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:13:45 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="6848E6E9-0B05-C0B4-86FE-7BA32C7C0CEF">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 01:54:59 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_unitario" id="4E01E068-516B-2C70-0FD9-71F461EF8615">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 01:55:47 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="E3DE1883-4AF5-A530-6759-521B449559FB">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 02:01:14 UTC</createdTime>
+<generatorID>65F2FE46-896E-E4E2-E8D9-4A8FA76AB6A7</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<referedAttribute>FB8A63D8-DDC9-B402-E203-88D0645248F4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_estado" id="F723C8B8-6F40-B230-4EBA-C4B721E913C1">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 02:03:44 UTC</createdTime>
+<generatorID>584B3436-F378-A54D-EE73-550524CC025C</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<referedAttribute>55E95E9D-8DCB-01D9-8C49-173FBD2DCF37</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDAF6D37-289F-37FB-2CCA-7BAE99A11886" name="PEDIDO PK">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 02:00:48 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B00BA2E-FF8C-92EE-1781-4380973B141A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

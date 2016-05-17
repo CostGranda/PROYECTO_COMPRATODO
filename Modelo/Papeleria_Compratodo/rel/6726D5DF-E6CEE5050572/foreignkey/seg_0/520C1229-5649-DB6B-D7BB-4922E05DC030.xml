@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="520C1229-5649-DB6B-D7BB-4922E05DC030" containerWithKeyObject="C004A511-340C-22CC-09BE-E56D9B9A8212" localFKIndex="0295EEBE-9B56-B29C-5126-C0A9241D43B5" name="FK_ASS_2">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<generatorID>A3607C47-03D6-1193-92CC-02E14DEB14DC</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BF893F0-FCB2-4320-AD99-E24D1DE6DD71</referredTableID>
+<keyObject>FF710131-3D21-CFDE-AE18-90E1F3D2AE9C</keyObject>
+<referredKeyID>FF710131-3D21-CFDE-AE18-90E1F3D2AE9C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

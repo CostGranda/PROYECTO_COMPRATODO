@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vendedor_jefe" directorySegmentName="seg_0" id="A9712FCA-5794-00D5-77CC-FB52F74AF864">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-04 00:12:21 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="351E1453-D1DA-42BD-8AD6-BFD3BB19FEA5" value="true"/>
+</engineerTo>
+<targetPk>C32907D8-8ED6-8C00-B85D-484F7168F48D</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>980416D3-39D5-26B9-448E-DB0825F1F340</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>980416D3-39D5-26B9-448E-DB0825F1F340</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

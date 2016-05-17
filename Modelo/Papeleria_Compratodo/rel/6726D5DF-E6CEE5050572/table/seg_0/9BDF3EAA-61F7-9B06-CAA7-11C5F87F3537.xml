@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BDF3EAA-61F7-9B06-CAA7-11C5F87F3537" name="CLIENTE">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>0B302387-8366-4531-B902-38C7288910F1</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="documento_cliente" id="47269494-E2C0-B1AD-CBE6-2144BC838021">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<comment>Puede ser un documento</comment>
+<generatorID>BEB7F04E-75C9-BE0A-F3CA-4FA1964F30C3</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EAD987C7-B5E3-F0EC-1883-24AB5F3DD70C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="CE1EC935-D1A9-F366-AA31-1AD9958DE5B9">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>F7340FF3-FC9F-1464-47C0-157C58C6EB11</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="FE1BC072-42A6-55CC-6BCF-BB4EEBEDBA04">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>F0DACA2A-553E-E0D1-D54B-40C705DB6DCB</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="81463337-B35F-0954-F4A0-BB2C603F65ED">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>8CC0EED8-F675-A132-C7B1-F2C49D18F21E</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cli" id="9635CCB7-FA38-D8B5-ED13-8503B449DD64">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>AE764E06-B605-DF58-0255-0ECAB016FCE2</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DC9773B-34C1-EB8A-77D7-F53E13589701</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="B50FA1A7-D81C-E199-76E8-915D2575348F">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>583F07D1-018F-45CA-25A1-194929D142F6</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E6FFADB-13D8-7D51-7FBF-00B2A2F54DCD" name="CLIENTE_PK">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>850AE8E8-C69B-B37B-4BE5-3BFA0BC8D362</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47269494-E2C0-B1AD-CBE6-2144BC838021"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

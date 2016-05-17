@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F0FA2E4-15D4-6C3B-258D-A3176507AB52" name="VENTA">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:37:12 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_venta" id="8FB36400-A476-2976-436C-EAA19B2B1658">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:37:15 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_venta" id="68DC1F51-2954-8D2F-525E-7C63E5D7A2D0">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:37:31 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_total" id="BC9BFB49-A072-4F56-87D9-52A5ACA8816F">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:37:46 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento" id="7F15CF8B-801D-76EB-0B50-2FE3E61EDE11">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:46:22 UTC</createdTime>
+<generatorID>931E2489-7770-3A3B-E50D-EB51F5531115</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<referedAttribute>E382140A-C2CC-A732-6876-FA0F45FC4521</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EAD987C7-B5E3-F0EC-1883-24AB5F3DD70C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento_cliente" id="A2DC8275-9870-5028-4AC0-0D77A4BE1E00">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-04 00:19:28 UTC</createdTime>
+<comment>Puede ser un documento</comment>
+<generatorID>9F0ED3AB-4081-6780-7B0F-FC2FADBA1521</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<referedAttribute>BEB7F04E-75C9-BE0A-F3CA-4FA1964F30C3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="BC3C6302-31CD-D6F0-E906-48B2C8D73064">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 02:18:52 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="documento_cliente1" id="D6BF0E91-5E5E-94D5-EB07-7B49DB5F6A51">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:55:22 UTC</createdTime>
+<comment>Puede ser un documento</comment>
+<generatorID>70B7330F-A16F-94E1-6132-E3F9BDDD6936</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="true"/>
+</engineerTo>
+<referedAttribute>BEB7F04E-75C9-BE0A-F3CA-4FA1964F30C3</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EAD987C7-B5E3-F0EC-1883-24AB5F3DD70C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32ABB5AC-811D-31D0-9506-D4E772A80D2B" name="VENTA PK">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:37:22 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6726D5DF-3D48-623D-2237-E6CEE5050572" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FB36400-A476-2976-436C-EAA19B2B1658</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

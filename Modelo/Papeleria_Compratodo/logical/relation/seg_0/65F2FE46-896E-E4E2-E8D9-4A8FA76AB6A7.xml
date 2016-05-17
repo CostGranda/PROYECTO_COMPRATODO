@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="65F2FE46-896E-E4E2-E8D9-4A8FA76AB6A7">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 02:01:14 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<engineerTo>
+<item key="351E1453-D1DA-42BD-8AD6-BFD3BB19FEA5" value="true"/>
+</engineerTo>
+<sourcePk>33F1693C-8AE5-02C7-20E7-2149E146B037</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8968D5D7-471C-CCE5-EC70-14492B71493E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>32A0C6F4-E463-035F-606D-544B36BB8AA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

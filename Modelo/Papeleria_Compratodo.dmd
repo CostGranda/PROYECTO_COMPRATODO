@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Papeleria_Compratodo" id="97E452E0-DDC5-5FEB-AC29-F243CA7EBD52" version="3.5">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-03 03:07:38 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>97E452E0-DDC5-5FEB-AC29-F243CA7EBD52</designId>
+</OSDM_Design>

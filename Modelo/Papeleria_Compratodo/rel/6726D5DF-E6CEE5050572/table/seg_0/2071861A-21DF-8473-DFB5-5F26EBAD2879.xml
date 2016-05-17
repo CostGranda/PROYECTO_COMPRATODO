@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2071861A-21DF-8473-DFB5-5F26EBAD2879" name="PROVEEDOR">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>8968D5D7-471C-CCE5-EC70-14492B71493E</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="9714DF51-95BB-958E-F9E0-7F371C5E77DA">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>FB8A63D8-DDC9-B402-E203-88D0645248F4</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_proveedor" id="828D4C59-03F8-3A5D-AD43-3BE752A4094E">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>7AC01490-854A-4A01-7D2E-C08802255D21</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_contacto" id="97F7FD3A-D710-45B9-11F0-2999BB47ADEA">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>BA37D5E1-E67D-5AA7-BA5C-ACE176C21D1E</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido_contacto" id="7240DC1A-2E0C-7271-2E79-322E9A0B99D0">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>0EE27005-B6A2-0063-7C4D-7B23E790CE66</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido_contacto" id="7A344716-C80C-1311-3472-5B0A7A3EA2BB">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>42ECF301-7B84-2549-3783-247BF8904184</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_contacto" id="92578706-3921-D6D3-BD6D-38E80CBAE7DA">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>B6B24754-A27C-F994-260A-66A5AA9164BB</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DC9773B-34C1-EB8A-77D7-F53E13589701</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_proveedor" id="B6D28BBD-21C8-DBBF-929A-A52214B1F944">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>4605274A-68B0-AF6A-2AC3-7B61AE783A91</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>84A6D015-BF0C-89B4-809F-3F195A0F69D6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_proveedor" id="232A8DB0-587D-2228-E537-7E44AB83A8C2">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>7E7AEE40-CAAD-1554-6C1E-5AA7FF1BAB10</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4DC9773B-34C1-EB8A-77D7-F53E13589701</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="881C42EC-0E24-6302-7AA9-A86E54A4A500" name="PROVEEDOR_PK">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:07 UTC</createdTime>
+<generatorID>33F1693C-8AE5-02C7-20E7-2149E146B037</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9714DF51-95BB-958E-F9E0-7F371C5E77DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

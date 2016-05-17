@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20B94261-4355-7D56-500E-2E235EE46EDD" name="PRODUCTO_PEDIDO">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTO_codigo_producto" id="510FBC9C-8123-1AAC-3836-27D817B83297">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3CEECDE7-E7CE-DBD7-51ED-A45BE45A4138</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E454CF6-5757-788C-5346-BD3B25323B81" referredColumn="297592B1-F6E5-8397-E7A7-2226847597E3"/>
+</associations>
+</Column>
+<Column name="PEDIDO_codigo_pedido" id="4847C65A-2E50-E339-76A0-AF53DDB17677">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="971CCD2B-04CB-7D00-F5A0-AF505261DB94" referredColumn="0BD4DDF6-9AB5-5E76-924A-67D49BE4BE4D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81EDB11C-A2EF-7E87-7851-0888018E48A2" name="producto_pedido_PK">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="510FBC9C-8123-1AAC-3836-27D817B83297"/>
+<colUsage columnID="4847C65A-2E50-E339-76A0-AF53DDB17677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E52D7A7A-21CC-5938-32A3-0ECD0250F992" name="FK_ASS_8">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<generatorID>1A959D9A-9A45-D1C5-D984-4EB44D52D891</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="510FBC9C-8123-1AAC-3836-27D817B83297"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AC75194-8BF0-3988-B81C-6801F221706B" name="FK_ASS_9">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-06 18:53:08 UTC</createdTime>
+<generatorID>1A959D9A-9A45-D1C5-D984-4EB44D52D891</generatorID>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4847C65A-2E50-E339-76A0-AF53DDB17677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
