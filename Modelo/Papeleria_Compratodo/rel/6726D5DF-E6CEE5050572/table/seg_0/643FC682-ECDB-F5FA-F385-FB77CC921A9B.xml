@@ -20,30 +20,6 @@
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cantidad" id="7A37B803-5958-1FC7-A7A0-476406A61B1C">
-<createdBy>coste</createdBy>
-<createdTime>2016-05-06 18:53:07 UTC</createdTime>
-<generatorID>6848E6E9-0B05-C0B4-86FE-7BA32C7C0CEF</generatorID>
-<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="valor_unitario" id="E3DEC877-BE9A-0AB8-C8F6-5294DC2F0000">
-<createdBy>coste</createdBy>
-<createdTime>2016-05-06 18:53:07 UTC</createdTime>
-<generatorID>4E01E068-516B-2C70-0FD9-71F461EF8615</generatorID>
-<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="PROVEEDOR_nit" id="2D85950C-7FD8-DCE3-D677-D87B8C738E5A">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:07 UTC</createdTime>
@@ -76,7 +52,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4F3B4BCE-F98C-7E7D-3B97-883972BE8C90" name="PEDIDO_PK">
+<ind_PK_UK id="4F3B4BCE-F98C-7E7D-3B97-883972BE8C90" name="PK_PEDIDO">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:07 UTC</createdTime>
 <generatorID>DDAF6D37-289F-37FB-2CCA-7BAE99A11886</generatorID>
@@ -88,7 +64,7 @@
 <colUsage columnID="0BD4DDF6-9AB5-5E76-924A-67D49BE4BE4D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="363D7826-B713-81C9-387F-681BAA6F85C2" name="PEDIDO_PROVEEDOR_FK">
+<ind_PK_UK id="363D7826-B713-81C9-387F-681BAA6F85C2" name="FK_PEDIDO_PROVEEDOR">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>65F2FE46-896E-E4E2-E8D9-4A8FA76AB6A7</generatorID>
@@ -99,7 +75,7 @@
 <colUsage columnID="2D85950C-7FD8-DCE3-D677-D87B8C738E5A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2DFB485F-BBDC-1E16-A3DA-A10AB00BFE61" name="PEDIDO_ESTADO_FK">
+<ind_PK_UK id="2DFB485F-BBDC-1E16-A3DA-A10AB00BFE61" name="FK_PEDIDO_ESTADO">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>584B3436-F378-A54D-EE73-550524CC025C</generatorID>

@@ -99,7 +99,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="881C42EC-0E24-6302-7AA9-A86E54A4A500" name="PROVEEDOR_PK">
+<ind_PK_UK id="881C42EC-0E24-6302-7AA9-A86E54A4A500" name="PK_PROVEEDOR">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:07 UTC</createdTime>
 <generatorID>33F1693C-8AE5-02C7-20E7-2149E146B037</generatorID>

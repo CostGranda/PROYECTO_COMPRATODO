@@ -114,7 +114,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6F2D0A67-067D-4F72-397D-F830649D5ECE" name="VENDEDOR_PK">
+<ind_PK_UK id="6F2D0A67-067D-4F72-397D-F830649D5ECE" name="PK_VENDEDOR">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>C32907D8-8ED6-8C00-B85D-484F7168F48D</generatorID>
@@ -126,7 +126,7 @@
 <colUsage columnID="70340003-4AD6-F905-5479-A99A05DD8D2A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="99166FC8-A44A-0B51-7D8E-148A73B994FA" name="VENDEDOR_VENDEDOR_FK">
+<ind_PK_UK id="99166FC8-A44A-0B51-7D8E-148A73B994FA" name="FK_VENDEDOR_VENDEDOR">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>A9712FCA-5794-00D5-77CC-FB52F74AF864</generatorID>

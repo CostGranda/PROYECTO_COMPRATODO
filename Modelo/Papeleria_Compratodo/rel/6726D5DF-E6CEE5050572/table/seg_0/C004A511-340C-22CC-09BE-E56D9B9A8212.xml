@@ -35,9 +35,20 @@
 <colAssociation fkAssociation="520C1229-5649-DB6B-D7BB-4922E05DC030" referredColumn="B1CF8251-41AD-054A-DDEC-C26E27C99A89"/>
 </associations>
 </Column>
+<Column name="cantidad" id="676AE075-CF29-3DF4-3C28-85BA0724C746">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-19 04:11:25 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="55344E54-BE74-6EBB-2A3D-851F27E797A6" name="Relation_15_PK">
+<ind_PK_UK id="55344E54-BE74-6EBB-2A3D-851F27E797A6" name="PK_producto_venta">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <ownerDesignName>Papeleria_Compratodo</ownerDesignName>
@@ -49,7 +60,7 @@
 <colUsage columnID="36C0E6F1-87B7-1CE6-C6E9-47FD75ACB859"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="61F03133-1F51-391E-AFBE-B3314BB2157C" name="FK_ASS_1">
+<ind_PK_UK id="61F03133-1F51-391E-AFBE-B3314BB2157C" name="FK_PRODUCTO_codigo_productov2">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>A3607C47-03D6-1193-92CC-02E14DEB14DC</generatorID>
@@ -60,7 +71,7 @@
 <colUsage columnID="F9D026E0-5BF2-B66A-8541-D93338DAE87F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0295EEBE-9B56-B29C-5126-C0A9241D43B5" name="FK_ASS_2">
+<ind_PK_UK id="0295EEBE-9B56-B29C-5126-C0A9241D43B5" name="FK_VENTA_codigo_venta">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>A3607C47-03D6-1193-92CC-02E14DEB14DC</generatorID>

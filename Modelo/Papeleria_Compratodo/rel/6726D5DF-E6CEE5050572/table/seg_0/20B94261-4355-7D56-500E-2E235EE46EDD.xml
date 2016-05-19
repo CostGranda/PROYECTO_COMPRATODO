@@ -36,9 +36,31 @@
 <colAssociation fkAssociation="971CCD2B-04CB-7D00-F5A0-AF505261DB94" referredColumn="0BD4DDF6-9AB5-5E76-924A-67D49BE4BE4D"/>
 </associations>
 </Column>
+<Column name="cantidad" id="56E4AF91-7C28-68C0-1C5A-E7C046DC0F74">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-19 04:12:25 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_unitario" id="245DDF3B-3BEA-B895-2940-4C2DE6C54CBB">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-19 04:12:25 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="81EDB11C-A2EF-7E87-7851-0888018E48A2" name="producto_pedido_PK">
+<ind_PK_UK id="81EDB11C-A2EF-7E87-7851-0888018E48A2" name="PK_producto_pedido">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <ownerDesignName>Papeleria_Compratodo</ownerDesignName>
@@ -50,7 +72,7 @@
 <colUsage columnID="4847C65A-2E50-E339-76A0-AF53DDB17677"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E52D7A7A-21CC-5938-32A3-0ECD0250F992" name="FK_ASS_8">
+<ind_PK_UK id="E52D7A7A-21CC-5938-32A3-0ECD0250F992" name="FK_PRODUCTO_codigo_producto">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>1A959D9A-9A45-D1C5-D984-4EB44D52D891</generatorID>
@@ -61,7 +83,7 @@
 <colUsage columnID="510FBC9C-8123-1AAC-3836-27D817B83297"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9AC75194-8BF0-3988-B81C-6801F221706B" name="FK_ASS_9">
+<ind_PK_UK id="9AC75194-8BF0-3988-B81C-6801F221706B" name="FK_PEDIDO_codigo_pedido">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>
 <generatorID>1A959D9A-9A45-D1C5-D984-4EB44D52D891</generatorID>
