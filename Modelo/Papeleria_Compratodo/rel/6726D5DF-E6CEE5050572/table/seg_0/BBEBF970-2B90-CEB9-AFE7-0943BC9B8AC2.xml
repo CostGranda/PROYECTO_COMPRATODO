@@ -126,6 +126,16 @@
 <colUsage columnID="70340003-4AD6-F905-5479-A99A05DD8D2A"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="62AB9A64-2EC8-1F3F-4630-4992386CDDA8" name="ind_uni_celular">
+<createdBy>coste</createdBy>
+<createdTime>2016-05-20 19:38:01 UTC</createdTime>
+<ownerDesignName>Papeleria_Compratodo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFE5E9C9-A3EA-EEF5-F3C6-EEE3989D20A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="99166FC8-A44A-0B51-7D8E-148A73B994FA" name="FK_VENDEDOR_VENDEDOR">
 <createdBy>coste</createdBy>
 <createdTime>2016-05-06 18:53:08 UTC</createdTime>

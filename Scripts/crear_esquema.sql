@@ -1,3 +1,4 @@
+connect / as sysdba;
 --Borrar tablespace
 DROP TABLESPACE ts_compratodo INCLUDING CONTENTS AND DATAFILES;
 
@@ -22,3 +23,4 @@ GRANT connect, resource, dba TO us_compratodo;
 
 -- Conectarse directamente
 connect us_compratodo/123456;
+show user;
