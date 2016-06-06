@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package controlador;
 
 import java.io.IOException;
@@ -15,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import modelo.registro;
 
-
 @WebServlet(name = "ingreso", urlPatterns = {"/ingreso"})
 public class ingreso extends HttpServlet {
 
@@ -24,31 +22,31 @@ public class ingreso extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
 
-        registro re=new registro();
-        
-        if(request.getParameter("ingreso") != null){
-            String codigo_venta=request.getParameter("codigo_venta");
-            String fecha_venta=request.getParameter("fecha_venta");
-            String valor_total=request.getParameter("valor_total");
-            String VENDEDOR_documento=request.getParameter("VENDEDOR_documento");
-            String CLIENTE_documento_cliente=request.getParameter("CLIENTE_documento_cliente");
+        registro re = new registro();
+
+        if (request.getParameter("ingreso") != null) {
+            String codigo_venta = request.getParameter("codigo_venta");
+            String fecha_venta = request.getParameter("fecha_venta");
+            String valor_total = request.getParameter("valor_total");
+            String VENDEDOR_documento = request.getParameter("VENDEDOR_documento");
+            String CLIENTE_documento_cliente = request.getParameter("CLIENTE_documento_cliente");
 
             re.insertar(Integer.parseInt(codigo_venta), fecha_venta,
-              Integer.parseInt(valor_total),VENDEDOR_documento, CLIENTE_documento_cliente);
+                    Integer.parseInt(valor_total), VENDEDOR_documento, CLIENTE_documento_cliente);
 
-        }else if(request.getParameter("actualizar") != null){
+        } else if (request.getParameter("actualizar") != null) {
 
-          String codigo_venta=request.getParameter("codigo_venta");
-          String fecha_venta=request.getParameter("fecha_venta");
-          String valor_total=request.getParameter("valor_total");
-          String VENDEDOR_documento=request.getParameter("VENDEDOR_documento");
-          String CLIENTE_documento_cliente=request.getParameter("CLIENTE_documento_cliente");
+            String codigo_venta = request.getParameter("codigo_venta");
+            String fecha_venta = request.getParameter("fecha_venta");
+            String valor_total = request.getParameter("valor_total");
+            String VENDEDOR_documento = request.getParameter("VENDEDOR_documento");
+            String CLIENTE_documento_cliente = request.getParameter("CLIENTE_documento_cliente");
 
             re.actualizar(Integer.parseInt(codigo_venta), fecha_venta, Integer.parseInt(valor_total),
-                          VENDEDOR_documento, CLIENTE_documento_cliente);
+                    VENDEDOR_documento, CLIENTE_documento_cliente);
 
-        }else if(request.getParameter("borrar") != null){
-            String codigo_venta=request.getParameter("codigo_venta");
+        } else if (request.getParameter("borrar") != null) {
+            String codigo_venta = request.getParameter("codigo_venta2");
             re.eliminar(Integer.parseInt(codigo_venta));
 
         }
@@ -56,7 +54,7 @@ public class ingreso extends HttpServlet {
 
     }
 
-  // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *

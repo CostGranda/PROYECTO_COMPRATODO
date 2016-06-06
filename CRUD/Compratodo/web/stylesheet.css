@@ -2,10 +2,74 @@
   font-size: 20px;
 }
 
+.styled-select {
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    width: 500px;
+    margin-right: 0px;
+}
+
+#myDiv{
+  width: 200px;
+  height: 250px;
+  background-color: white;
+}
+
+body{
+    background-color: #fff;
+}
+
+
+label{
+    font-size: 15px;
+}
+
+.tama{
+  font-size: 20px;
+  padding-left: 30%;
+  font-family: cursive;
+  color: #867979;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin: 4px 4px;
+    width: 95%;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#customers1 {
+    width: 100%;
+}
+
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    background-color: white;
 }
 
 #customers td  {
@@ -30,23 +94,27 @@
     color: white;
 }
 
-div#d1{
-  /*border: 1px solid black;*/
-  margin: 0;
-  border-collapse: collapse;
-  padding: 13px;
+#ps4 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
 }
 
-tr#tabla1{
-  text-align: left;
+#ps4 td  {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
 }
 
-table#t02 tr:nth-child(even) {
-    background-color: #f2f2f2;
+#ps4 tr:nth-child(even){
+  background-color: #fff;
 }
 
-table#t02 th {
+#ps4 th {
+    border: 1px solid #ddd;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background-color: #4CAF50;
     color: white;
-    font-family: monospace;
 }
