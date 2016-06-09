@@ -33,11 +33,13 @@ public class registro {
     private ResultSet rs = null;
     private static Connection con;
 
-    public void insertar(int codigo_venta, String fecha_venta, int valor_total, String VENDEDOR_documento,
+    public void insertar(String fecha_venta, int valor_total, String VENDEDOR_documento,
             String CLIENTE_documento_cliente) {
         Statement st;
         try {
-            String sql = "INSERT INTO VENTA values (" + codigo_venta + ",to_date('" + fecha_venta + "','YYYY-MM-DD')," + valor_total + "," + VENDEDOR_documento + "," + CLIENTE_documento_cliente + ")";
+            //String sql = "INSERT INTO VENTA values (" + codigo_venta + ",to_date('" + fecha_venta + "','YYYY-MM-DD')," + valor_total + "," + VENDEDOR_documento + "," + CLIENTE_documento_cliente + ")";
+            
+            String sql = "INSERT INTO VENTA values (seq_cod_venta.nextval,to_date('" + fecha_venta + "','YYYY-MM-DD')," + valor_total + "," + VENDEDOR_documento + "," + CLIENTE_documento_cliente + ")";
             Class.forName(classfor);
             con = DriverManager.getConnection(url, usuario, clave);
             st = con.createStatement();

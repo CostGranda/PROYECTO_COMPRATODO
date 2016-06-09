@@ -35,7 +35,7 @@
                                             <label>Codigo Venta: </label>
                                         </td>
                                         <td>
-                                            <input type="number"  autofocus value="" name="codigo_venta">
+                                            <input type="number" min="1521" max="2000" autofocus value="" name="codigo_venta">
                                         </td>
                                     </tr>
                                     <tr>
@@ -94,7 +94,7 @@
                                             <label>Codigo Venta:</label>
                                         </td>
                                         <td>
-                                            <input type="number"  value="" name="codigo_venta2">
+                                            <input type="number" min="1521" max="2000" value="" name="codigo_venta2">
                                         </td>
                                     </tr>
                                     <tr>

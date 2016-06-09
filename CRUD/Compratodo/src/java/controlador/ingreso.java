@@ -31,7 +31,7 @@ public class ingreso extends HttpServlet {
             String VENDEDOR_documento = request.getParameter("VENDEDOR_documento");
             String CLIENTE_documento_cliente = request.getParameter("CLIENTE_documento_cliente");
 
-            re.insertar(Integer.parseInt(codigo_venta), fecha_venta,
+            re.insertar(fecha_venta,
                     Integer.parseInt(valor_total), VENDEDOR_documento, CLIENTE_documento_cliente);
 
         } else if (request.getParameter("actualizar") != null) {
